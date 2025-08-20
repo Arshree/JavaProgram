@@ -23,8 +23,8 @@ public class ReverseNo {
 		
 		//Using StringBuilder class
 		StringBuilder s = new StringBuilder();
-		 s.append(num);
-		 StringBuilder rev = s.reverse();
+		s.append(num);
+		StringBuilder rev = s.reverse();
 		System.out.println(rev);
 		
 	}

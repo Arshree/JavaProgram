@@ -51,7 +51,7 @@ public class RevString {
 //	        // Recursive call: reverse the substring starting from the second character and append the first character
 //	        return reverseString(str.substring(1)) + str.charAt(0);
 		
-//		String str = “Pankaj�?;
+//		String str = “Pankaj�?;
 //		StringBuffer sf = new StringBuffer(s);
 //		System.out.print(sf.reverse());
 		
@@ -75,6 +75,14 @@ public class RevString {
 			for (int i = a.length() - 1; i >= 0; i--)
 				rev = rev + a.charAt(i);
 			System.out.println(rev);
+//			{
+//			if( a.equals(rev)) {
+//				System.out.println("Given string is polyndrom :" + rev);
+//			}
+//			else {
+//				System.out.println("Given string is not polyndrom");
+//			}
 		}
 
 	}
+//}

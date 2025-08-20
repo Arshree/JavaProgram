@@ -3,7 +3,7 @@ package Day3;
 public class LeafYear {
 
 	public static void main(String[] args) {
-		double year=2022;
+		double year=2025;
 		boolean res = year % 4 == 0;
 		boolean res1 = year %100 != 0;
 		boolean res2 = year%400 == 0;
